@@ -1,0 +1,163 @@
+a {
+	text-decoration: none;
+	color: #4aaaa5;
+}
+
+
+body {
+	background-color: #ffffff;
+}
+
+h1 {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 175%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bolder;
+	width: 250px;
+	height: 60px;
+	margin-left: 88px;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	position:absolute;
+	top:0;
+	z-index: 1;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 175%;
+	font-weight: bolder;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-size: 125%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+nav {
+	background-color: #ffffff;
+	width: 100%;
+	height: 90px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	}
+
+footer {
+	background-color: #666666;
+	width: 100%;
+	height: 66px;
+	color: #333;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: x-small;
+}
+
+#tealName {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 200%;
+}
+
+#aboutMe {
+	width: 648px;
+	height: 478px;
+	background-color: #ffffff;
+	border-width: 5px;
+	border-color: #dddddd;
+	margin-left: 88px;
+	margin-top: 40px;
+}
+
+#contactMe {
+	width: 648px;
+	height: 478px;
+	background-color: #ffffff;
+	border-width: 5px;
+	border-color: #dddddd;
+	margin-left: 88px;
+	margin-top: 40px;	
+}
+
+#portfolioMe {
+	width: 648px;
+	height: 578px;
+	background-color: #ffffff;
+	border-width: 5px;
+	border-color: #dddddd;
+	margin-left: 88px;
+	margin-top: 40px;
+}
+
+#ConnectBox {
+	background-color: #ffffff;
+	color: #4aaaa5;
+	width: 268px;
+	height: 202px;
+	border-width: 1px;
+	border-color: #dddddd;
+	position:absolute;
+	right: 135px;
+	top: 132px;
+	float:right;
+}
+
+.navbar {
+	padding: 30px 20px 145px;
+	float: right;
+	border-left-style: solid;
+	border-right-style: solid;
+}
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+}
+
+.contentboxes {
+	padding-left: 30px;
+	padding-bottom: 25px;
+}
+
+.portfolioicons {
+	padding-left: 30px;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+}
+
+.bottomrow {
+	margin-bottom: 100px;
+	float:left;
+}
+
+.icons {
+	padding-left: 55px;
+	padding-bottom: 45px;
+}
+
+.footertext {
+	padding-top: 30px;
+}
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
